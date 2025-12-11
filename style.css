@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url(../img/trees-gfd535a8e3_1920.jpg) no-repeat center center/cover;
+    background: url(clock.jpg) no-repeat center center/cover;
 }
 
 .clock {
@@ -26,11 +26,13 @@ body {
 }
 
 .clock h1 {
+    color: #480202;
     font-size: 3.5rem;
     font-weight: 600;
 }
 
 .clock span {
+    color: #480202;
     font-size: 20px;
     position: relative;
     top: -6%;
