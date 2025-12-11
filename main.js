@@ -1,11 +1,10 @@
 const time = document.getElementById("time");
 const timeFormat = document.getElementById("time-format");
 
-document.addEventListener("DOMcontentLoaded", () => {
+document.addEventListener("DOMContentLoaded", ()=> {
    setInterval(showTime, 1000); 
 });
-
-const showTime = ()=> {
+const showTime = function() {
     let date = new Date();
     let hr = date.getHours();
     let min = date.getMinutes();
@@ -16,5 +15,5 @@ const showTime = ()=> {
     sec = sec < 10 ? `0${sec}` : sec;
     
     time.innerHTML = `${hr} : ${min} : ${sec}`;
-    timeFormat.innerHTML = hr>12 ? "PM" : "AM";
+    timeFormat.innerHTML = hr > 12 ? "PM" : "AM";
 }

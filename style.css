@@ -19,20 +19,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1), 0px 10px 20px rgba(0,0,0,0.7);
+    background: rgba(117, 240, 240, 0.8);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4), 0px 10px 20px rgba(0,0,0,0.7);
     height: 24vh;
     border-radius: 15px;
     padding: 20px;
 }
 
 .clock h1 {
-    color: #480202;
+    color: #8e0909;
     font-size: 3.5rem;
     font-weight: 600;
 }
 
 .clock span {
-    color: #480202;
+    color: #8e0909;
     font-size: 20px;
     position: relative;
     top: -6%;
